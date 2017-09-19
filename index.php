@@ -102,8 +102,8 @@
 		$accountSid = "AC08d095cb250390a8bb04bf5c36e749a6";
 		$authToken = "53b7781098b8f71fb1dba914b5c9b5ad";
 		$client = new Client($accountSid, $authToken);
-		$curlOptions = [ CURLOPT_SSL_VERIFYHOST => false, CURLOPT_SSL_VERIFYPEER => false];
-		$client->setHttpClient(new CurlClient($curlOptions));
+	//	$curlOptions = [ CURLOPT_SSL_VERIFYHOST => false, CURLOPT_SSL_VERIFYPEER => false];
+	//	$client->setHttpClient(new CurlClient($curlOptions));
 
 		//build sms messages
 		$fromNumber = "+61436414915";
