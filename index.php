@@ -108,7 +108,7 @@
 		//build sms messages
 		$fromNumber = "+61436414915";
 		$toNumber = "+61400113044";
-		$msg = "Here is your Dialog Codex search link: " . $linkAddr;
+		$msg = "Here is your Dialog Codex search link: " . $linkAddr . "  Please log into Dialog Codex using this URL link.";
 		
 		try 
 		{
@@ -127,9 +127,9 @@
 
 		$response=array(
 			"source" => "Webhook for Dialog Codex",
-			"speech" => "This is your link: Please log into Dialog Codex to find out the details of your search.",
+			"speech" => "Your search link has been sent via SMS to your phone. Please check your phone for the SMS mesage and log into Dialog Codex via the URL link provided.",
 			"messages" =>  $messages,
-			"displayText" => "This is your link: Please log into Dialog Codex to find out the details of your search.",
+			"displayText" => "Your search link has been sent via SMS to your phone. Please check your phone for the SMS mesage and log into Dialog Codex via the URL link provided.",
 			"contextOut" => array()
 		);
 	
