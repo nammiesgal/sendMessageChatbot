@@ -13,7 +13,6 @@
 		$requestBody = file_get_contents('php://input');
 		$json = json_decode($requestBody);
 
-		
 		$companyValue = $json->result->parameters->companyName;
 		$searchValue = $json->result->parameters->searchType;
 		$officeLocationValue = $json->result->parameters->officeLocation;
