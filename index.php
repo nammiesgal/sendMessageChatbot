@@ -21,8 +21,6 @@
 		
 		$linkAddr = "https://codex.dialoggroup.biz/?mode=voice";
 		
-		//&name=pete+ryan&company=dialog&office=south+brisbane&manager=alec+begley&search=.net-python-project+management
-		
 		// only process when consultant contains a value
 		if (!(is_null($consultantNameValue) || empty($consultantNameValue)) )
 		{
@@ -127,9 +125,9 @@
 
 		$response=array(
 			"source" => "Webhook for Dialog Codex",
-			"speech" => "Your search link has been sent via SMS to your phone. Please check your phone for the SMS mesage and log into Dialog Codex via the URL link provided.",
+			"speech" => "Your search link has been sent via SMS to your phone. Please check your phone and log into Dialog Codex via the URL link provided.",
 			"messages" =>  $messages,
-			"displayText" => "Your search link has been sent via SMS to your phone. Please check your phone for the SMS mesage and log into Dialog Codex via the URL link provided.",
+			"displayText" => "Your search link has been sent via SMS to your phone. Please check your phone and log into Dialog Codex via the URL link provided.",
 			"contextOut" => array()
 		);
 	
