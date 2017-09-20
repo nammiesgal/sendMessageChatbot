@@ -106,7 +106,7 @@
 		//build sms messages
 		$fromNumber = "+61436414915";
 		$toNumber = "+61400113044";
-		$msg = "Here is your Dialog Codex search link: " . $linkAddr . "  Please log into Dialog Codex using this URL link.";
+		$msg = "Please log into Dialog Codex using this URL link: " . $linkAddr;
 		
 		try 
 		{
