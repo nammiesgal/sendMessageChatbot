@@ -125,7 +125,7 @@
 */
 		$response=array(
 			"source" => "Webhook for Dialog Codex",
-			"speech" => "Your search link has been sent via SMS to your phone. Please check your phone and log into Dialog Codex via the URL link provided. Perform another search?" . $linkAddr,
+			"speech" => "Your search link has been sent via SMS to your phone. Please check your phone and log into Dialog Codex via the URL link provided. Perform another search?",
 			"messages" =>  $messages,
 			"displayText" => "Your search link has been sent via SMS to your phone. Please check your phone and log into Dialog Codex via the URL link provided. Perform another search?",
 			"contextOut" => array()
