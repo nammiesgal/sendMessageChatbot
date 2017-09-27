@@ -107,7 +107,7 @@
 		$fromNumber = "+61436414915";
 		$toNumber = "+61400113044";
 		$msg = "Please log into Dialog Codex using this URL link: " . $linkAddr;
-/*		
+		
 		try 
 		{
 			$message = $client->messages->create(
@@ -122,7 +122,7 @@
 		{
 			print "Twilio error: " . $ex->getMessage();
 		}
-*/
+
 		$response=array(
 			"source" => "Webhook for Dialog Codex",
 			"speech" => "Your search link has been sent via SMS to your phone. Please check your phone and log into Dialog Codex via the URL link provided. Perform another search?",
